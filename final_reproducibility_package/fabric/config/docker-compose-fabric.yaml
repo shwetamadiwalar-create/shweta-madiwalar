@@ -1,0 +1,8 @@
+version: '2'
+services:
+  orderer1:
+    image: hyperledger/fabric-orderer:2.5
+    command: orderer
+  peer0.org1:
+    image: hyperledger/fabric-peer:2.5
+    command: peer node start

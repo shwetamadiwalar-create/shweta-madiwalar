@@ -1,0 +1,8 @@
+version: '2'
+services:
+  pos_selector:
+    image: python:3.10
+    command: python validator_selector.py
+  bft_daemon:
+    image: python:3.10
+    command: python bft_daemon.py

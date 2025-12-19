@@ -93,6 +93,7 @@ All experiments use fixed channel and block parameters to eliminate configuratio
 •	Block size: 1 MB
 •	Read / write / admin policies: Hyperledger Fabric default policies
 These parameters remain unchanged across all benchmark runs.
+
 6.Hardware and Deployment Environment
 Each blockchain node is provisioned with:
 •	CPU: 8-core processor

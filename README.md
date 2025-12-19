@@ -70,6 +70,7 @@ The permissioned Blockchain network is implemented using Hyperledger Fabric and 
 •	One application channel shared across all peers and orderers
 •	Dedicated anchor peers configured to improve block dissemination efficiency across organizations
 Validator selection and rotation are governed by the proposed policy layer operating above Fabric’s native ordering service, while Fabric’s default endorsement and commit flow is preserved.
+
 3.Network Emulation Parameters
 To emulate realistic inter-node communication conditions, all network links are uniformly configured using the Traffic Control Network Emulator (tc netem) with the following parameters:
 •	Round-trip time (RTT): approximately 10 ms
@@ -84,6 +85,7 @@ Benchmark workloads consist of federated model-update transactions submitted to 
 •	Payload size: 1 KB to 10 KB per transaction
 •	Invocation method: Python scripts invoking chaincode functions
 A deterministic workload generator is used to ensure consistent transaction submission patterns across experiments.
+
 5.Channel and Block Configuration
 All experiments use fixed channel and block parameters to eliminate configuration-induced variability:
 •	Batch timeout: 2 seconds

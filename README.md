@@ -77,6 +77,7 @@ To emulate realistic inter-node communication conditions, all network links are 
 •	Packet loss rate: 0.1%
 •	Bandwidth: 100 Mbps
 These settings are applied consistently across all inter-node routes to ensure controlled and repeatable network behavior.
+
 4. Workload and Transaction Characteristics
 Benchmark workloads consist of federated model-update transactions submitted to the Blockchain network with the following characteristics:
 •	Transaction rate: 500 to 10,000 updates per benchmark run

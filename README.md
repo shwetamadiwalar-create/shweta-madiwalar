@@ -93,7 +93,7 @@ All experiments use fixed channel and block parameters to eliminate configuratio
 •	Block size: 1 MB
 •	Read / write / admin policies: Hyperledger Fabric default policies
 These parameters remain unchanged across all benchmark runs.
- 6.Hardware and Deployment Environment
+6.Hardware and Deployment Environment
 Each blockchain node is provisioned with:
 •	CPU: 8-core processor
 •	Memory: 16 GB RAM
@@ -109,7 +109,7 @@ To support independent validation of the reported results, the following artifac
 •	Network emulation scripts (tc netem configurations)
 •	Python-based benchmark driver (benchmark.py)
 Together, these artifacts enable exact reconstruction of the experimental environment and reproduction of the latency, throughput, and block finalization measurements presented in Table 4.
- 8 .Reproducibility Statement
+8.Reproducibility Statement
 All benchmark results are generated under fixed configuration settings and deterministic workload profiles. By releasing the complete set of configuration files, scripts, and network parameters, this study enables transparent and repeatable evaluation of blockchain performance under federated learning workloads.
 
 The complete reproducibility package, including configuration files, reference implementations, and benchmark scripts, is publicly available .

@@ -54,21 +54,6 @@ Privacy budget (DP methods): ε = 1.0, δ = 1e-5
 
 Malicious clients: 30% (for attack evaluation)
 
-
- Key Features
-- Dynamic hierarchical clustering using fixed distance metrics and linkage
-- Blockchain-governed aggregation and validator selection
-- Differential privacy support (ε = 1.0)
-- Explicit comparative baselines (FedAvg, HFL, BFL, etc.)
-- Worst-case latency benchmarking under realistic hospital networks
-
-
-Experimental Protocol
-Seeds: 5 random seeds
-Non-IID partitions: 3 Dirichlet splits (α = 0.5)
-Total runs per setting: 15
-Network emulation:RTT 10–12 ms, jitter 2–3 ms, packet loss 0.1%
-
 1. Install dependencies
 
 pip install -r requirements.txt
